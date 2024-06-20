@@ -1,0 +1,81 @@
+Script started on 2024-06-19 20:22:05-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="24"]
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ find[K[K[K[Ksudo find .[K/var -type f -mmi n 60
+[?2004l[sudo] password for granai: 
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo file /bin/htop /t[Ketc/pa sswd /usr/p[Kbin/passwd 
+[?2004l/bin/htop:       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=dd044ee7403a7eaa2ca8614c0e027b8f2dcb2d3f, for GNU/Linux 3.2.0, stripped
+/etc/passwd:     ASCII text
+/usr/bin/passwd: setuid ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=6c8ce294d0b21646fad3568d04cfeb019598c0df, for GNU/Linux 3.2.0, stripped
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ cd ~
+[?2004l[?2004h]0;granai@granai: ~[01;32mgranai@granai[00m:[01;34m~[00m$ cd ~sudo file /bin/htop /etc/passwd /usr/bin/passwd [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pnd /var -type f -mmin 60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Krm today.log yesterday.log [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd lab/mkdir ~/labfile azure-linux.pdf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14@mv azure-linux.svg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pfile azure-linux.svg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo wget https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-ops-guide.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P.microsoft.com/en-us/learn/achievements/azure-linux.svg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~[Ksudo wget https://docs.microsoft.com/en-us/learn/achievements/azure-linux.svg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmsftpdfs.blob.core.windows.net/guides/azure/azure-ops-guide.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P.microsoft.com/en-us/learn/achievements/azure-linux.svg
+[?2004l--2024-06-19 20:23:14--  https://docs.microsoft.com/en-us/learn/achievements/azure-linux.svg
+Resolving docs.microsoft.com (docs.microsoft.com)... 23.195.176.164, 2600:1419:4e00:688::353e, 2600:1419:4e00:684::353e
+Connecting to docs.microsoft.com (docs.microsoft.com)|23.195.176.164|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /en-us/training/achievements/azure-linux.svg [following]
+--2024-06-19 20:23:14--  https://docs.microsoft.com/en-us/training/achievements/azure-linux.svg
+Reusing existing connection to docs.microsoft.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/svg+xml]
+Saving to: ‘azure-linux.svg’
+
+azure-linux.svg                [<=>                                   ]       0  --.-KB/s               azure-linux.svg                [ <=>                                  ]   1.58M  --.-KB/s    in 0.09s   
+
+2024-06-19 20:23:14 (18.1 MB/s) - ‘azure-linux.svg’ saved [1651731]
+
+[?2004h]0;granai@granai: ~[01;32mgranai@granai[00m:[01;34m~[00m$ sudo wget https://docs.microsoft.com/en-us/learn/achievements/azure-linux.svg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~[Ksudo file /bin/htop /etc/passwd /usr/bin/passwd [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pnd /var -type f -mmin 60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Krm today.log yesterday.log [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd lab/mkdir ~/labfile azure-linux.pdf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14@mv azure-linux.svg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pfile azure-linux.svg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo wget https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-ops-guide.pdf
+[?2004l--2024-06-19 20:23:20--  https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-ops-guide.pdf
+Resolving docsmsftpdfs.blob.core.windows.net (docsmsftpdfs.blob.core.windows.net)... failed: Name or service not known.
+wget: unable to resolve host address ‘docsmsftpdfs.blob.core.windows.net’
+[?2004h]0;granai@granai: ~[01;32mgranai@granai[00m:[01;34m~[00m$ file azure-linux.svg 
+[?2004lazure-linux.svg: SVG Scalable Vector Graphics image
+[?2004h]0;granai@granai: ~[01;32mgranai@granai[00m:[01;34m~[00m$ mv azure-linux.svg azure-linux.svg [K[K[K[Kpdf
+[?2004l[?2004h]0;granai@granai: ~[01;32mgranai@granai[00m:[01;34m~[00m$ mv azure-linux.svg azure-linux.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pfile azure-linux.svg 
+[?2004lazure-linux.svg: cannot open `azure-linux.svg' (No such file or directory)
+[?2004h]0;granai@granai: ~[01;32mgranai@granai[00m:[01;34m~[00m$ file azure-linux.svg [K[K[K[Kpdf 
+[?2004lazure-linux.pdf: SVG Scalable Vector Graphics image
+[?2004h]0;granai@granai: ~[01;32mgranai@granai[00m:[01;34m~[00m$ mkdir ~.[K.[K/lab
+[?2004l[?2004h]0;granai@granai: ~[01;32mgranai@granai[00m:[01;34m~[00m$ cd ~/lab/
+[?2004l[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ touch today,,[K[K.log yesterday.ki[K[Klog
+[?2004l[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ satt[K[K[Ktat today.log yesterday.log 
+[?2004l  File: today.log
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 8,2	Inode: 264674      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/  granai)   Gid: ( 1000/  granai)
+Access: 2024-06-19 20:24:24.500605066 -0300
+Modify: 2024-06-19 20:24:24.500605066 -0300
+Change: 2024-06-19 20:24:24.500605066 -0300
+ Birth: 2024-06-19 20:24:24.500605066 -0300
+  File: yesterday.log
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 8,2	Inode: 264675      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/  granai)   Gid: ( 1000/  granai)
+Access: 2024-06-19 20:24:24.500605066 -0300
+Modify: 2024-06-19 20:24:24.500605066 -0300
+Change: 2024-06-19 20:24:24.500605066 -0300
+ Birth: 2024-06-19 20:24:24.500605066 -0300
+[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ touch -d " [Kyesterday" testa[K[K[K[K[Kyesterdat,[K[Ky.log
+[?2004l[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ stat yesterday.log 
+[?2004l  File: yesterday.log
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 8,2	Inode: 264675      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/  granai)   Gid: ( 1000/  granai)
+Access: 2024-06-18 20:25:16.775920404 -0300
+Modify: 2024-06-18 20:25:16.775920404 -0300
+Change: 2024-06-19 20:25:16.775029835 -0300
+ Birth: 2024-06-19 20:24:24.500605066 -0300
+[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ mkdir ~/myva[K[Kbna[K[Kackup
+[?2004l[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ cd [K[Kp ~.la[K[K[K/lab/* ~/myva=[K[K[Kbackup/
+[?2004l[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ rm -rf ~.[K/mybackup/
+[?2004l[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ mkdir ~.[K/logbackup
+[?2004l[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ cp /var/;o[K[Klog/*.log ~/logbacjuo[K[K[Kkup/
+[?2004lcp: cannot open '/var/log/boot.log' for reading: Permission denied
+[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ sudo !!
+[?2004lsudo cp /var/log/*.log ~/logbackup/
+[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ grp[Kep -o -=i[K[K-[K[K-o[Ki " l[K[K[K' [Klinux; [K[K' | [K[K/etc/wgetrc | wc 0[K-l
+[?2004l0
+[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ wc -w /etc/ha[Kdparm.conf 
+[?2004l723 /etc/hdparm.conf
+[?2004h]0;granai@granai: ~/lab[01;32mgranai@granai[00m:[01;34m~/lab[00m$ exit
+[?2004lexit
+
+Script done on 2024-06-19 20:27:27-03:00 [COMMAND_EXIT_CODE="0"]

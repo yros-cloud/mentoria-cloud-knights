@@ -1,0 +1,749 @@
+Script started on 2024-06-19 20:14:59-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="24"]
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ pwd
+[?2004l/home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ cd //[K[K..
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai[00m$ cd /
+[?2004l[?2004h]0;granai@granai: /[01;32mgranai@granai[00m:[01;34m/[00m$ ls .[K/
+[?2004l[0m[01;36mbin[0m                [01;34mcdrom[0m  [01;34mhome[0m   [01;34mlib.usr-is-merged[0m  [01;34mmnt[0m   [01;34mroot[0m  [01;34msbin.usr-is-merged[0m  swap.img  [01;34musr[0m
+[01;34mbin.usr-is-merged[0m  [01;34mdev[0m    [01;36mlib[0m    [01;34mlost+found[0m         [01;34mopt[0m   [01;34mrun[0m   [01;34msnap[0m                [01;34msys[0m       [01;34mvar[0m
+[01;34mboot[0m               [01;34metc[0m    [01;36mlib64[0m  [01;34mmedia[0m              [01;34mproc[0m  [01;36msbin[0m  [01;34msrv[0m                 [30;42mtmp[0m
+[?2004h]0;granai@granai: /[01;32mgranai@granai[00m:[01;34m/[00m$ ls -l /
+[?2004ltotal 3867740
+lrwxrwxrwx   1 root root          7 Apr 22 10:08 [0m[01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root       4096 Feb 26 09:58 [01;34mbin.usr-is-merged[0m
+drwxr-xr-x   3 root root       4096 Jun 18 19:49 [01;34mboot[0m
+dr-xr-xr-x   2 root root       4096 Jun 18 18:52 [01;34mcdrom[0m
+drwxr-xr-x  19 root root       4140 Jun 19 18:27 [01;34mdev[0m
+drwxr-xr-x 140 root root      12288 Jun 18 20:07 [01;34metc[0m
+drwxr-xr-x   3 root root       4096 Jun 18 19:42 [01;34mhome[0m
+lrwxrwxrwx   1 root root          7 Apr 22 10:08 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root          9 Apr 22 10:08 [01;36mlib64[0m -> [01;34musr/lib64[0m
+drwxr-xr-x   2 root root       4096 Apr  8 11:37 [01;34mlib.usr-is-merged[0m
+drwx------   2 root root      16384 Jun 18 18:59 [01;34mlost+found[0m
+drwxr-xr-x   2 root root       4096 Apr 24 07:47 [01;34mmedia[0m
+drwxr-xr-x   2 root root       4096 Apr 24 07:47 [01;34mmnt[0m
+drwxr-xr-x   2 root root       4096 Apr 24 07:47 [01;34mopt[0m
+dr-xr-xr-x 257 root root          0 Jun 19 18:22 [01;34mproc[0m
+drwx------   5 root root       4096 Jun 19 19:56 [01;34mroot[0m
+drwxr-xr-x  35 root root        880 Jun 19 18:32 [01;34mrun[0m
+lrwxrwxrwx   1 root root          8 Apr 22 10:08 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x   2 root root       4096 Mar 31 06:00 [01;34msbin.usr-is-merged[0m
+drwxr-xr-x  14 root root       4096 Jun 18 19:54 [01;34msnap[0m
+drwxr-xr-x   2 root root       4096 Apr 24 07:47 [01;34msrv[0m
+-rw-------   1 root root 3960471552 Jun 18 19:17 swap.img
+dr-xr-xr-x  13 root root          0 Jun 19 19:18 [01;34msys[0m
+drwxrwxrwt  18 root root       4096 Jun 19 19:50 [30;42mtmp[0m
+drwxr-xr-x  12 root root       4096 Apr 24 07:47 [01;34musr[0m
+drwxr-xr-x  14 root root       4096 Jun 18 19:42 [01;34mvar[0m
+[?2004h]0;granai@granai: /[01;32mgranai@granai[00m:[01;34m/[00m$ ;s[K[Kls ~
+[?2004lazure-linux.pdf  [0m[01;34mDocuments[0m  [01;34mlab[0m        [01;34mmentoria[0m  [01;34mpasta1[0m    [01;34mPublic[0m  [01;34mTemplates[0m
+[01;34mDesktop[0m          [01;34mDownloads[0m  [01;34mlogbackup[0m  [01;34mMusic[0m     [01;34mPictures[0m  [01;34msnap[0m    [01;34mVideos[0m
+[?2004h]0;granai@granai: /[01;32mgranai@granai[00m:[01;34m/[00m$ ls -la ~
+[?2004ltotal 1724
+drwxr-x--- 20 granai granai    4096 Jun 19 20:14 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root      4096 Jun 18 19:42 [01;34m..[0m
+-rw-r--r--  1 root   root   1651731 Mar 10  2021 azure-linux.pdf
+-rw-------  1 granai granai    1485 Jun 19 20:07 .bash_history
+-rw-r--r--  1 granai granai     220 Mar 31 05:41 .bash_logout
+-rw-r--r--  1 granai granai    3771 Mar 31 05:41 .bashrc
+drwx------ 11 granai granai    4096 Jun 18 19:49 [01;34m.cache[0m
+drwx------ 14 granai granai    4096 Jun 18 20:46 [01;34m.config[0m
+drwxr-xr-x  2 granai granai    4096 Jun 18 19:43 [01;34mDesktop[0m
+drwxr-xr-x  2 granai granai    4096 Jun 18 20:54 [01;34mDocuments[0m
+drwxr-xr-x  2 granai granai    4096 Jun 18 19:43 [01;34mDownloads[0m
+-rw-rw-r--  1 granai granai      59 Jun 19 20:10 .gitconfig
+drwx------  2 granai granai    4096 Jun 18 20:45 [01;34m.gnupg[0m
+drwxrwxr-x  2 granai granai    4096 Jun 19 19:58 [01;34mlab[0m
+-rw-------  1 granai granai      20 Jun 19 20:14 .lesshst
+drwx------  4 granai granai    4096 Jun 18 19:43 [01;34m.local[0m
+drwxrwxr-x  2 granai granai    4096 Jun 19 20:01 [01;34mlogbackup[0m
+drwxrwxr-x  3 granai granai    4096 Jun 19 19:14 [01;34mmentoria[0m
+drwxr-xr-x  2 granai granai    4096 Jun 18 19:43 [01;34mMusic[0m
+drwxrwxr-x  3 granai granai    4096 Jun 19 19:19 [01;34mpasta1[0m
+drwxr-xr-x  2 granai granai    4096 Jun 18 19:43 [01;34mPictures[0m
+-rw-r--r--  1 granai granai     807 Mar 31 05:41 .profile
+drwxr-xr-x  2 granai granai    4096 Jun 18 19:43 [01;34mPublic[0m
+drwx------  6 granai granai    4096 Jun 18 21:00 [01;34msnap[0m
+drwx------  2 granai granai    4096 Jun 18 20:59 [01;34m.ssh[0m
+-rw-r--r--  1 granai granai       0 Jun 18 19:46 .sudo_as_admin_successful
+drwxr-xr-x  2 granai granai    4096 Jun 18 19:43 [01;34mTemplates[0m
+drwxr-xr-x  2 granai granai    4096 Jun 18 19:43 [01;34mVideos[0m
+-rw-------  1 granai granai    1215 Jun 19 20:05 .viminfo
+[?2004h]0;granai@granai: /[01;32mgranai@granai[00m:[01;34m/[00m$ mkdir[K[K[K[K[Kls -la ~~[K-l //[Kcd[C[C..[2Ppwdexitls -S /var/log | head -n 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmore /etc/selinux/semanage.conf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ptac cat-count.log[Cmv cat-count,log cat-count.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat count.log > cat-count,log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pp count.log count.bkp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pvim count.log touch count.logail -n 5 /etc/crontab[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -n 10 /etc/resolv.conf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ktail -n5 /etc/crontab[1P /etc/crontab[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -n 10 /etc/resolv.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kwc -w /etc/hdparm.conf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo grep -o -i 'linux' /etc/wgetrc | wc -l1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcp /var/log/*.log ~/logbackup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pmkdir ~/logbackuprm -rf ~/mybackup/[1@cp -r .[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[Cd[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmkdir ~/mybackupstat yesterday.log [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16@touch -d "yesterday"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pstat today.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch today.log yesterday.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd lab/[Kmkdir labfile azure-linux.pdf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv azure-linux.svg azure-linux.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psudo file azure-linux.svg [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv azure-linux.svg azure-linux.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pfile azure-linux.pdf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pmkdir lab[2Pcd lab/mkdir labfile azure-linux.pdf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv azure-linux.svg azure-linux.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psudo file azure-linux.svg wget https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-ops-guide.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P.microsoft.com/en-us/learn/achievements/azure-linux.svg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~[Ksudo file /bin/htop /etc/passwd /usr/bin/passwd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pnd /var -type f -mmin -60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kfind ~ -type d[7Pls -R ~mkdir -p ~/pasta1/pasta2/pasta3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la ~[K[K[Kcd /..[2Ppwdcd ..[1P/[2Pls -la ~mkdir -p ~/pasta1/pasta2/pasta3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -R ~[Kmkdir -p ~/pasta1/pasta2/pasta3
+[?2004l[?2004h]0;granai@granai: /[01;32mgranai@granai[00m:[01;34m/[00m$ ls -R ~
+[?2004l/home/granai:
+azure-linux.pdf  [0m[01;34mDocuments[0m  [01;34mlab[0m        [01;34mmentoria[0m  [01;34mpasta1[0m    [01;34mPublic[0m  [01;34mTemplates[0m
+[01;34mDesktop[0m          [01;34mDownloads[0m  [01;34mlogbackup[0m  [01;34mMusic[0m     [01;34mPictures[0m  [01;34msnap[0m    [01;34mVideos[0m
+
+/home/granai/Desktop:
+
+/home/granai/Documents:
+ssh.txt
+
+/home/granai/Downloads:
+
+/home/granai/lab:
+today.log  yesterday.log
+
+/home/granai/logbackup:
+alternatives.log  auth.log  bootstrap.log   cloud-init-output.log  fontconfig.log   kern.log
+apport.log        boot.log  cloud-init.log  dpkg.log               gpu-manager.log  ubuntu-advantage.log
+
+/home/granai/mentoria:
+[01;34mmentoria-cloud-knights[0m
+
+/home/granai/mentoria/mentoria-cloud-knights:
+[01;34mangelo.granai[0m  README.md
+
+/home/granai/mentoria/mentoria-cloud-knights/angelo.granai:
+[01;34mdesafios.linux[0m
+
+/home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux:
+desafio.02.txt
+
+/home/granai/Music:
+
+/home/granai/pasta1:
+[01;34mpasta2[0m
+
+/home/granai/pasta1/pasta2:
+[01;34mpasta3[0m
+
+/home/granai/pasta1/pasta2/pasta3:
+
+/home/granai/Pictures:
+
+/home/granai/Public:
+
+/home/granai/snap:
+[01;34mfirefox[0m  [01;34mfirmware-updater[0m  [01;34msnapd-desktop-integration[0m  [01;34msnap-store[0m
+
+/home/granai/snap/firefox:
+[01;34m4173[0m  [01;34mcommon[0m  [01;36mcurrent[0m
+
+/home/granai/snap/firefox/4173:
+
+/home/granai/snap/firefox/common:
+
+/home/granai/snap/firmware-updater:
+[01;34m127[0m  [01;34mcommon[0m  [01;36mcurrent[0m
+
+/home/granai/snap/firmware-updater/127:
+
+/home/granai/snap/firmware-updater/common:
+
+/home/granai/snap/snapd-desktop-integration:
+[01;34m157[0m  [01;34mcommon[0m  [01;36mcurrent[0m
+
+/home/granai/snap/snapd-desktop-integration/157:
+[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+
+/home/granai/snap/snapd-desktop-integration/157/Desktop:
+
+/home/granai/snap/snapd-desktop-integration/157/Documents:
+
+/home/granai/snap/snapd-desktop-integration/157/Downloads:
+
+/home/granai/snap/snapd-desktop-integration/157/Music:
+
+/home/granai/snap/snapd-desktop-integration/157/Pictures:
+
+/home/granai/snap/snapd-desktop-integration/157/Public:
+
+/home/granai/snap/snapd-desktop-integration/157/Templates:
+
+/home/granai/snap/snapd-desktop-integration/157/Videos:
+
+/home/granai/snap/snapd-desktop-integration/common:
+
+/home/granai/snap/snap-store:
+[01;34m1124[0m  [01;34mcommon[0m  [01;36mcurrent[0m
+
+/home/granai/snap/snap-store/1124:
+
+/home/granai/snap/snap-store/common:
+
+/home/granai/Templates:
+
+/home/granai/Videos:
+[?2004h]0;granai@granai: /[01;32mgranai@granai[00m:[01;34m/[00m$ fid[Knd ~ 0[K-type d
+[?2004l/home/granai
+/home/granai/lab
+/home/granai/.cache
+/home/granai/.cache/mesa_shader_cache
+/home/granai/.cache/mesa_shader_cache/aa
+/home/granai/.cache/mesa_shader_cache/ab
+/home/granai/.cache/mesa_shader_cache/c7
+/home/granai/.cache/mesa_shader_cache/c4
+/home/granai/.cache/mesa_shader_cache/7a
+/home/granai/.cache/mesa_shader_cache/be
+/home/granai/.cache/mesa_shader_cache/67
+/home/granai/.cache/mesa_shader_cache/cc
+/home/granai/.cache/mesa_shader_cache/2a
+/home/granai/.cache/mesa_shader_cache/b5
+/home/granai/.cache/mesa_shader_cache/c9
+/home/granai/.cache/mesa_shader_cache/ec
+/home/granai/.cache/mesa_shader_cache/ee
+/home/granai/.cache/mesa_shader_cache/0e
+/home/granai/.cache/mesa_shader_cache/1d
+/home/granai/.cache/mesa_shader_cache/d9
+/home/granai/.cache/mesa_shader_cache/77
+/home/granai/.cache/mesa_shader_cache/58
+/home/granai/.cache/mesa_shader_cache/d6
+/home/granai/.cache/mesa_shader_cache/23
+/home/granai/.cache/mesa_shader_cache/92
+/home/granai/.cache/mesa_shader_cache/14
+/home/granai/.cache/mesa_shader_cache/83
+/home/granai/.cache/mesa_shader_cache/4e
+/home/granai/.cache/mesa_shader_cache/e8
+/home/granai/.cache/mesa_shader_cache/1f
+/home/granai/.cache/mesa_shader_cache/8c
+/home/granai/.cache/mesa_shader_cache/3f
+/home/granai/.cache/mesa_shader_cache/87
+/home/granai/.cache/mesa_shader_cache/fe
+/home/granai/.cache/mesa_shader_cache/7c
+/home/granai/.cache/mesa_shader_cache/ba
+/home/granai/.cache/mesa_shader_cache/96
+/home/granai/.cache/mesa_shader_cache/a2
+/home/granai/.cache/mesa_shader_cache/c2
+/home/granai/.cache/mesa_shader_cache/2f
+/home/granai/.cache/mesa_shader_cache/6f
+/home/granai/.cache/mesa_shader_cache/a3
+/home/granai/.cache/mesa_shader_cache/64
+/home/granai/.cache/mesa_shader_cache/62
+/home/granai/.cache/mesa_shader_cache/26
+/home/granai/.cache/mesa_shader_cache/72
+/home/granai/.cache/mesa_shader_cache/73
+/home/granai/.cache/mesa_shader_cache/74
+/home/granai/.cache/mesa_shader_cache/69
+/home/granai/.cache/mesa_shader_cache/36
+/home/granai/.cache/mesa_shader_cache/6a
+/home/granai/.cache/mesa_shader_cache/db
+/home/granai/.cache/mesa_shader_cache/3d
+/home/granai/.cache/mesa_shader_cache/32
+/home/granai/.cache/mesa_shader_cache/af
+/home/granai/.cache/mesa_shader_cache/28
+/home/granai/.cache/mesa_shader_cache/99
+/home/granai/.cache/mesa_shader_cache/1b
+/home/granai/.cache/mesa_shader_cache/53
+/home/granai/.cache/mesa_shader_cache/2b
+/home/granai/.cache/mesa_shader_cache/61
+/home/granai/.cache/mesa_shader_cache/75
+/home/granai/.cache/mesa_shader_cache/6b
+/home/granai/.cache/mesa_shader_cache/79
+/home/granai/.cache/mesa_shader_cache/d1
+/home/granai/.cache/mesa_shader_cache/71
+/home/granai/.cache/mesa_shader_cache/c6
+/home/granai/.cache/mesa_shader_cache/c0
+/home/granai/.cache/mesa_shader_cache/eb
+/home/granai/.cache/mesa_shader_cache/5d
+/home/granai/.cache/mesa_shader_cache/a8
+/home/granai/.cache/mesa_shader_cache/11
+/home/granai/.cache/mesa_shader_cache/8a
+/home/granai/.cache/mesa_shader_cache/df
+/home/granai/.cache/mesa_shader_cache/12
+/home/granai/.cache/mesa_shader_cache/6e
+/home/granai/.cache/mesa_shader_cache/31
+/home/granai/.cache/mesa_shader_cache/e4
+/home/granai/.cache/mesa_shader_cache/e5
+/home/granai/.cache/mesa_shader_cache/06
+/home/granai/.cache/mesa_shader_cache/30
+/home/granai/.cache/mesa_shader_cache/c5
+/home/granai/.cache/mesa_shader_cache/5f
+/home/granai/.cache/mesa_shader_cache/cf
+/home/granai/.cache/mesa_shader_cache/d0
+/home/granai/.cache/mesa_shader_cache/f2
+/home/granai/.cache/mesa_shader_cache/da
+/home/granai/.cache/mesa_shader_cache/f3
+/home/granai/.cache/mesa_shader_cache/10
+/home/granai/.cache/mesa_shader_cache/01
+/home/granai/.cache/mesa_shader_cache/21
+/home/granai/.cache/mesa_shader_cache/a0
+/home/granai/.cache/mesa_shader_cache/f8
+/home/granai/.cache/mesa_shader_cache/3b
+/home/granai/.cache/mesa_shader_cache/57
+/home/granai/.cache/mesa_shader_cache/81
+/home/granai/.cache/mesa_shader_cache/0d
+/home/granai/.cache/mesa_shader_cache/49
+/home/granai/.cache/mesa_shader_cache/05
+/home/granai/.cache/mesa_shader_cache/a6
+/home/granai/.cache/mesa_shader_cache/98
+/home/granai/.cache/mesa_shader_cache/b4
+/home/granai/.cache/mesa_shader_cache/0f
+/home/granai/.cache/mesa_shader_cache/b9
+/home/granai/.cache/mesa_shader_cache/8d
+/home/granai/.cache/mesa_shader_cache/43
+/home/granai/.cache/mesa_shader_cache/7d
+/home/granai/.cache/mesa_shader_cache/59
+/home/granai/.cache/mesa_shader_cache/cd
+/home/granai/.cache/mesa_shader_cache/22
+/home/granai/.cache/mesa_shader_cache/40
+/home/granai/.cache/mesa_shader_cache/e3
+/home/granai/.cache/mesa_shader_cache/13
+/home/granai/.cache/mesa_shader_cache/d4
+/home/granai/.cache/mesa_shader_cache/d2
+/home/granai/.cache/mesa_shader_cache/66
+/home/granai/.cache/mesa_shader_cache/ce
+/home/granai/.cache/mesa_shader_cache/63
+/home/granai/.cache/mesa_shader_cache/dc
+/home/granai/.cache/mesa_shader_cache/07
+/home/granai/.cache/mesa_shader_cache/00
+/home/granai/.cache/mesa_shader_cache/ac
+/home/granai/.cache/mesa_shader_cache/04
+/home/granai/.cache/mesa_shader_cache/2c
+/home/granai/.cache/mesa_shader_cache/76
+/home/granai/.cache/mesa_shader_cache/a9
+/home/granai/.cache/mesa_shader_cache/85
+/home/granai/.cache/mesa_shader_cache/fb
+/home/granai/.cache/mesa_shader_cache/d8
+/home/granai/.cache/mesa_shader_cache/ae
+/home/granai/.cache/mesa_shader_cache/78
+/home/granai/.cache/mesa_shader_cache/c1
+/home/granai/.cache/mesa_shader_cache/b0
+/home/granai/.cache/mesa_shader_cache/65
+/home/granai/.cache/mesa_shader_cache/bf
+/home/granai/.cache/mesa_shader_cache/47
+/home/granai/.cache/mesa_shader_cache/29
+/home/granai/.cache/mesa_shader_cache/0a
+/home/granai/.cache/mesa_shader_cache/7b
+/home/granai/.cache/mesa_shader_cache/d7
+/home/granai/.cache/mesa_shader_cache/b1
+/home/granai/.cache/mesa_shader_cache/8b
+/home/granai/.cache/mesa_shader_cache/02
+/home/granai/.cache/mesa_shader_cache/70
+/home/granai/.cache/mesa_shader_cache/94
+/home/granai/.cache/mesa_shader_cache/4d
+/home/granai/.cache/mesa_shader_cache/97
+/home/granai/.cache/mesa_shader_cache/9a
+/home/granai/.cache/mesa_shader_cache/5c
+/home/granai/.cache/mesa_shader_cache/b6
+/home/granai/.cache/mesa_shader_cache/cb
+/home/granai/.cache/mesa_shader_cache/d3
+/home/granai/.cache/mesa_shader_cache/50
+/home/granai/.cache/mesa_shader_cache/b8
+/home/granai/.cache/mesa_shader_cache/9f
+/home/granai/.cache/mesa_shader_cache/0c
+/home/granai/.cache/mesa_shader_cache/46
+/home/granai/.cache/mesa_shader_cache/bb
+/home/granai/.cache/mesa_shader_cache/60
+/home/granai/.cache/mesa_shader_cache/9e
+/home/granai/.cache/mesa_shader_cache/89
+/home/granai/.cache/mesa_shader_cache/d5
+/home/granai/.cache/mesa_shader_cache/ed
+/home/granai/.cache/mesa_shader_cache/bd
+/home/granai/.cache/mesa_shader_cache/fa
+/home/granai/.cache/mesa_shader_cache/91
+/home/granai/.cache/mesa_shader_cache/45
+/home/granai/.cache/mesa_shader_cache/e7
+/home/granai/.cache/mesa_shader_cache/42
+/home/granai/.cache/mesa_shader_cache/ea
+/home/granai/.cache/mesa_shader_cache/33
+/home/granai/.cache/mesa_shader_cache/17
+/home/granai/.cache/tracker3
+/home/granai/.cache/tracker3/files
+/home/granai/.cache/tracker3/files/errors
+/home/granai/.cache/ubuntu-report
+/home/granai/.cache/ibus-table
+/home/granai/.cache/evolution
+/home/granai/.cache/evolution/addressbook
+/home/granai/.cache/evolution/addressbook/trash
+/home/granai/.cache/evolution/tasks
+/home/granai/.cache/evolution/tasks/trash
+/home/granai/.cache/evolution/mail
+/home/granai/.cache/evolution/mail/trash
+/home/granai/.cache/evolution/sources
+/home/granai/.cache/evolution/sources/trash
+/home/granai/.cache/evolution/calendar
+/home/granai/.cache/evolution/calendar/trash
+/home/granai/.cache/evolution/memos
+/home/granai/.cache/evolution/memos/trash
+/home/granai/.cache/thumbnails
+/home/granai/.cache/thumbnails/large
+/home/granai/.cache/thumbnails/fail
+/home/granai/.cache/thumbnails/fail/gnome-thumbnail-factory
+/home/granai/.cache/ibus
+/home/granai/.cache/ibus/bus
+/home/granai/.cache/update-manager-core
+/home/granai/.cache/gstreamer-1.0
+/home/granai/.local
+/home/granai/.local/share
+/home/granai/.local/share/org.gnome.TextEditor
+/home/granai/.local/share/org.gnome.TextEditor/drafts
+/home/granai/.local/share/sounds
+/home/granai/.local/share/gvfs-metadata
+/home/granai/.local/share/gnome-settings-daemon
+/home/granai/.local/share/icc
+/home/granai/.local/share/ibus-table
+/home/granai/.local/share/gnome-shell
+/home/granai/.local/share/evolution
+/home/granai/.local/share/evolution/addressbook
+/home/granai/.local/share/evolution/addressbook/trash
+/home/granai/.local/share/evolution/addressbook/system
+/home/granai/.local/share/evolution/addressbook/system/photos
+/home/granai/.local/share/evolution/tasks
+/home/granai/.local/share/evolution/tasks/trash
+/home/granai/.local/share/evolution/tasks/system
+/home/granai/.local/share/evolution/mail
+/home/granai/.local/share/evolution/mail/trash
+/home/granai/.local/share/evolution/calendar
+/home/granai/.local/share/evolution/calendar/trash
+/home/granai/.local/share/evolution/calendar/system
+/home/granai/.local/share/evolution/memos
+/home/granai/.local/share/evolution/memos/trash
+/home/granai/.local/share/flatpak
+/home/granai/.local/share/flatpak/db
+/home/granai/.local/share/nautilus
+/home/granai/.local/share/nautilus/scripts
+/home/granai/.local/share/nautilus/tags
+/home/granai/.local/share/keyrings
+/home/granai/.local/share/backgrounds
+/home/granai/.local/share/applications
+/home/granai/.local/state
+/home/granai/.local/state/wireplumber
+/home/granai/Templates
+/home/granai/mentoria
+/home/granai/mentoria/mentoria-cloud-knights
+/home/granai/mentoria/mentoria-cloud-knights/angelo.granai
+/home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux
+/home/granai/mentoria/mentoria-cloud-knights/.git
+/home/granai/mentoria/mentoria-cloud-knights/.git/refs
+/home/granai/mentoria/mentoria-cloud-knights/.git/refs/remotes
+/home/granai/mentoria/mentoria-cloud-knights/.git/refs/remotes/origin
+/home/granai/mentoria/mentoria-cloud-knights/.git/refs/heads
+/home/granai/mentoria/mentoria-cloud-knights/.git/refs/tags
+/home/granai/mentoria/mentoria-cloud-knights/.git/hooks
+/home/granai/mentoria/mentoria-cloud-knights/.git/info
+/home/granai/mentoria/mentoria-cloud-knights/.git/branches
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/info
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/a4
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/32
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/55
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/d0
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/07
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/pack
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/5b
+/home/granai/mentoria/mentoria-cloud-knights/.git/objects/b6
+/home/granai/mentoria/mentoria-cloud-knights/.git/logs
+/home/granai/mentoria/mentoria-cloud-knights/.git/logs/refs
+/home/granai/mentoria/mentoria-cloud-knights/.git/logs/refs/remotes
+/home/granai/mentoria/mentoria-cloud-knights/.git/logs/refs/remotes/origin
+/home/granai/mentoria/mentoria-cloud-knights/.git/logs/refs/heads
+/home/granai/logbackup
+/home/granai/Videos
+/home/granai/Music
+/home/granai/Documents
+/home/granai/Desktop
+/home/granai/Downloads
+/home/granai/.config
+/home/granai/.config/enchant
+/home/granai/.config/tiling-assistant
+/home/granai/.config/update-notifier
+/home/granai/.config/gtk-4.0
+/home/granai/.config/gtk-3.0
+/home/granai/.config/pulse
+/home/granai/.config/evolution
+/home/granai/.config/evolution/sources
+/home/granai/.config/nautilus
+/home/granai/.config/goa-1.0
+/home/granai/.config/htop
+/home/granai/.config/ibus
+/home/granai/.config/ibus/bus
+/home/granai/.config/dconf
+/home/granai/pasta1
+/home/granai/pasta1/pasta2
+/home/granai/pasta1/pasta2/pasta3
+/home/granai/.gnupg
+/home/granai/snap
+/home/granai/snap/firefox
+/home/granai/snap/firefox/common
+/home/granai/snap/firefox/common/.cache
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/77
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/09
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/92
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/64
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/39
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/10
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/01
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/56
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/8e
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/e9
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/ce
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/63
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/b0
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/4d
+/home/granai/snap/firefox/common/.cache/mesa_shader_cache/dd
+/home/granai/snap/firefox/common/.cache/fontconfig
+/home/granai/snap/firefox/common/.cache/gio-modules
+/home/granai/snap/firefox/common/.cache/immodules
+/home/granai/snap/firefox/common/.cache/mozilla
+/home/granai/snap/firefox/common/.cache/mozilla/firefox
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/startupCache
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/settings
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/settings/main
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/settings/main/ms-language-packs
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/settings/main/ms-language-packs/browser
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/settings/main/ms-language-packs/browser/newtab
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/cache2
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/cache2/entries
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/cache2/doomed
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/thumbnails
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/safebrowsing
+/home/granai/snap/firefox/common/.cache/mozilla/firefox/8l3qi96o.default/safebrowsing/google4
+/home/granai/snap/firefox/common/.mozilla
+/home/granai/snap/firefox/common/.mozilla/firefox
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/sessionstore-backups
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/settings
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/datareporting
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/datareporting/glean
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/datareporting/glean/tmp
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/datareporting/glean/db
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/datareporting/glean/pending_pings
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/datareporting/glean/events
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/datareporting/archived
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/datareporting/archived/2024-06
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/saved-telemetry-pings
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/security_state
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/temporary
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent/chrome
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent/chrome/idb
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent/chrome/idb/3561288849sdhlie.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/permanent/chrome/idb/2918063365piupsah.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.globo.com
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.globo.com/ls
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.google.com
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.google.com/ls
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/159
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/204
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/87
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/73
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/177
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/254
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/124
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/167
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/38
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/44
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/236
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/192
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/cache/morgue/197
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/568386319wcanwec__bd.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/2436550297weograkreort-s.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/1594434671qepgla-rsot.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/3713173747_s_edmban.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/551887895oefgfadr-ost.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/2181795718meogdaerlo-ts.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/3166453069wcaw.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/1773850371fetgsa-rsot.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/1119037936ptbc_edte.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/4170411019jeogbasr-ost.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/3271781254seigganraolt-s.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/idb/1975025290lbrdui--meegdairao-ts.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++web.whatsapp.com/ls
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++github.com
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++github.com/ls
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.youtube.com^partitionKey=%28https%2Cgoogle.com%29
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.youtube.com^partitionKey=%28https%2Cgoogle.com%29/cache
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.youtube.com^partitionKey=%28https%2Cgoogle.com%29/cache/morgue
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.youtube.com^partitionKey=%28https%2Cgoogle.com%29/idb
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.youtube.com^partitionKey=%28https%2Cgoogle.com%29/idb/2171031483YattIedMb.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.youtube.com^partitionKey=%28https%2Cgoogle.com%29/idb/1511910468LCo7g%sCD7a%tca9b0a7s.files
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/storage/default/https+++www.youtube.com^partitionKey=%28https%2Cgoogle.com%29/ls
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/extension-store
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/bookmarkbackups
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/extensions
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/minidumps
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/gmp-gmpopenh264
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/gmp-gmpopenh264/2.3.2
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/crashes
+/home/granai/snap/firefox/common/.mozilla/firefox/8l3qi96o.default/crashes/events
+/home/granai/snap/firefox/common/.mozilla/firefox/Pending Pings
+/home/granai/snap/firefox/common/.mozilla/firefox/Crash Reports
+/home/granai/snap/firefox/common/.mozilla/firefox/Crash Reports/events
+/home/granai/snap/firefox/common/.mozilla/extensions
+/home/granai/snap/firefox/4173
+/home/granai/snap/firefox/4173/.local
+/home/granai/snap/firefox/4173/.local/share
+/home/granai/snap/firefox/4173/.local/share/glib-2.0
+/home/granai/snap/firefox/4173/.local/share/glib-2.0/schemas
+/home/granai/snap/firefox/4173/.local/share/icons
+/home/granai/snap/firefox/4173/.config
+/home/granai/snap/firefox/4173/.config/fontconfig
+/home/granai/snap/firefox/4173/.config/gtk-3.0
+/home/granai/snap/firefox/4173/.config/gtk-2.0
+/home/granai/snap/firefox/4173/.config/pulse
+/home/granai/snap/firefox/4173/.config/ibus
+/home/granai/snap/firefox/4173/.config/dconf
+/home/granai/snap/snapd-desktop-integration
+/home/granai/snap/snapd-desktop-integration/common
+/home/granai/snap/snapd-desktop-integration/common/.cache
+/home/granai/snap/snapd-desktop-integration/common/.cache/fontconfig
+/home/granai/snap/snapd-desktop-integration/common/.cache/gio-modules
+/home/granai/snap/snapd-desktop-integration/common/.cache/immodules
+/home/granai/snap/snapd-desktop-integration/157
+/home/granai/snap/snapd-desktop-integration/157/.local
+/home/granai/snap/snapd-desktop-integration/157/.local/share
+/home/granai/snap/snapd-desktop-integration/157/.local/share/glib-2.0
+/home/granai/snap/snapd-desktop-integration/157/.local/share/glib-2.0/schemas
+/home/granai/snap/snapd-desktop-integration/157/.local/share/icons
+/home/granai/snap/snapd-desktop-integration/157/Templates
+/home/granai/snap/snapd-desktop-integration/157/Videos
+/home/granai/snap/snapd-desktop-integration/157/Music
+/home/granai/snap/snapd-desktop-integration/157/Documents
+/home/granai/snap/snapd-desktop-integration/157/Desktop
+/home/granai/snap/snapd-desktop-integration/157/Downloads
+/home/granai/snap/snapd-desktop-integration/157/.config
+/home/granai/snap/snapd-desktop-integration/157/.config/fontconfig
+/home/granai/snap/snapd-desktop-integration/157/.config/gtk-3.0
+/home/granai/snap/snapd-desktop-integration/157/.config/gtk-2.0
+/home/granai/snap/snapd-desktop-integration/157/.config/ibus
+/home/granai/snap/snapd-desktop-integration/157/.config/dconf
+/home/granai/snap/snapd-desktop-integration/157/Pictures
+/home/granai/snap/snapd-desktop-integration/157/Public
+/home/granai/snap/snap-store
+/home/granai/snap/snap-store/common
+/home/granai/snap/snap-store/common/.cache
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/aa
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/c7
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/c4
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/7a
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/be
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/c8
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/c9
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/54
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/2e
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/d6
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/24
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/23
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/14
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/ef
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/fe
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/4b
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/ba
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/2d
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/96
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/1e
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/a2
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/90
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/64
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/62
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/73
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/69
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/36
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/32
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/53
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/2b
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/52
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/c0
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/5a
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/31
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/55
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/cf
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/d0
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/f2
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/da
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/f3
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/10
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/21
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/38
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/7f
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/81
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/84
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/49
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/0b
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/ff
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/ad
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/0f
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/43
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/7d
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/59
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/cd
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/22
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/56
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/40
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/41
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/35
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/ce
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/dc
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/07
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/04
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/2c
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/34
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/ae
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/f0
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/f5
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/f7
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/f6
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/0a
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/7b
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/b1
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/8b
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/70
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/4d
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/cb
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/d3
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/9f
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/8f
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/e6
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/bd
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/fa
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/7e
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/e2
+/home/granai/snap/snap-store/common/.cache/mesa_shader_cache/80
+/home/granai/snap/snap-store/common/.cache/snap-store
+/home/granai/snap/snap-store/common/.cache/snap-store/snapd
+/home/granai/snap/snap-store/common/.cache/snap-store/images
+/home/granai/snap/snap-store/common/.cache/fontconfig
+/home/granai/snap/snap-store/common/.cache/gio-modules
+/home/granai/snap/snap-store/common/.cache/immodules
+/home/granai/snap/snap-store/1124
+/home/granai/snap/snap-store/1124/.local
+/home/granai/snap/snap-store/1124/.local/share
+/home/granai/snap/snap-store/1124/.local/share/glib-2.0
+/home/granai/snap/snap-store/1124/.local/share/glib-2.0/schemas
+/home/granai/snap/snap-store/1124/.local/share/snap-store
+/home/granai/snap/snap-store/1124/.local/share/icons
+/home/granai/snap/snap-store/1124/.config
+/home/granai/snap/snap-store/1124/.config/fontconfig
+/home/granai/snap/snap-store/1124/.config/gtk-3.0
+/home/granai/snap/snap-store/1124/.config/gtk-2.0
+/home/granai/snap/snap-store/1124/.config/ibus
+/home/granai/snap/snap-store/1124/.config/dconf
+/home/granai/snap/firmware-updater
+/home/granai/snap/firmware-updater/common
+/home/granai/snap/firmware-updater/common/.cache
+/home/granai/snap/firmware-updater/common/.cache/gio-modules
+/home/granai/snap/firmware-updater/common/.cache/immodules
+/home/granai/snap/firmware-updater/127
+/home/granai/snap/firmware-updater/127/.local
+/home/granai/snap/firmware-updater/127/.local/share
+/home/granai/snap/firmware-updater/127/.local/share/glib-2.0
+/home/granai/snap/firmware-updater/127/.local/share/glib-2.0/schemas
+/home/granai/snap/firmware-updater/127/.local/share/icons
+/home/granai/snap/firmware-updater/127/.config
+/home/granai/snap/firmware-updater/127/.config/fontconfig
+/home/granai/snap/firmware-updater/127/.config/gtk-3.0
+/home/granai/snap/firmware-updater/127/.config/gtk-2.0
+/home/granai/snap/firmware-updater/127/.config/ibus
+/home/granai/snap/firmware-updater/127/.config/dconf
+/home/granai/Pictures
+/home/granai/Public
+/home/granai/.ssh
+[?2004h]0;granai@granai: /[01;32mgranai@granai[00m:[01;34m/[00m$ exit
+[?2004lexit
+
+Script done on 2024-06-19 20:16:04-03:00 [COMMAND_EXIT_CODE="0"]
