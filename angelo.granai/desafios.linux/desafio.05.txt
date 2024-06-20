@@ -1,0 +1,41 @@
+Script started on 2024-06-20 00:14:17-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="24"]
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ mkdir ~/permissions
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ touch ~/permissions/f[Kmyfile. txt
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ ls -la /var/;p[K[Klog/waa[K[K[K
+alternatives.log       cloud-init-output.log  fontconfig.log         private/
+apport.log             cups/                  gdm3/                  README
+apt/                   cups-browsed/          gpu-manager.log        speech-dispatcher/
+auth.log               dist-upgrade/          hp/                    sssd/
+boot.log               dmesg                  installer/             syslog
+boot.log.1             dmesg.0                journal/               sysstat/
+bootstrap.log          dmesg.1.gz             kern.log               ubuntu-advantage.log
+btmp                   dpkg.log               lastlog                unattended-upgrades/
+cloud-init.log         faillog                openvpn/               wtmp
+]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ ls -la /var/log/wtmp desafio.0[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K
+[?2004l-rw-rw-r-- 1 root utmp 4608 Jun 19 18:23 /var/log/wtmp
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ cp /var/log/wtmp ~/permissi ons
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo su
+[?2004l[sudo] password for granai: 
+[?2004h]0;root@granai: /home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linuxroot@granai:/home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux# touch ~/per[K[K[K[K[K/home/granai/permissions/rootgile[K[K[K[Kfile.txt
+[?2004l[?2004h]0;root@granai: /home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linuxroot@granai:/home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux# exit
+[?2004lexit
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ l;s[K[Ks -l /home/granai/permissions/rootfile.txt 
+[?2004l-rw-r--r-- 1 root root 0 Jun 20 00:17 /home/granai/permissions/rootfile.txt
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo su
+[?2004l[?2004h]0;root@granai: /home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linuxroot@granai:/home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux# chown granai:grana i /home/granai/permissions/*
+[?2004l[?2004h]0;root@granai: /home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linuxroot@granai:/home/granai/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux# rxit[K[K[K[Kexit
+[?2004lexit
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ chmod 700 ~
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ chmod 744 `/[K[K~/per`[Kmissions/*
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ ls -la /home/granai/permissions/
+[?2004ltotal 16
+drwxrwxr-x  2 granai granai 4096 Jun 20 00:17 [0m[01;34m.[0m
+drwx------ 21 granai granai 4096 Jun 20 00:14 [01;34m..[0m
+-rwxr--r--  1 granai granai    0 Jun 20 00:14 [01;32mmyfile.txt[0m
+-rwxr--r--  1 granai granai    0 Jun 20 00:17 [01;32mrootfile.txt[0m
+-rwxr--r--  1 granai granai 4608 Jun 20 00:16 [01;32mwtmp[0m
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ exit
+[?2004lexit
+
+Script done on 2024-06-20 00:18:55-03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,126 @@
+Script started on 2024-06-20 00:19:24-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="24"]
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ ps -e --np[Ko-headers | wc -l
+[?2004l191
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ pstree
+[?2004lsystemd─┬─ModemManager───3*[{ModemManager}]
+        ├─NetworkManager───3*[{NetworkManager}]
+        ├─accounts-daemon───3*[{accounts-daemon}]
+        ├─avahi-daemon───avahi-daemon
+        ├─colord───3*[{colord}]
+        ├─cron
+        ├─cups-browsed───3*[{cups-browsed}]
+        ├─cupsd
+        ├─dbus-daemon
+        ├─fwupd───5*[{fwupd}]
+        ├─gdm3─┬─gdm-session-wor─┬─gdm-wayland-ses─┬─gnome-session-b───3*[{gnome-session-b}]
+        │      │                 │                 └─3*[{gdm-wayland-ses}]
+        │      │                 └─3*[{gdm-session-wor}]
+        │      └─3*[{gdm3}]
+        ├─gnome-remote-de───3*[{gnome-remote-de}]
+        ├─2*[kerneloops]
+        ├─polkitd───3*[{polkitd}]
+        ├─power-profiles-───3*[{power-profiles-}]
+        ├─rsyslogd───3*[{rsyslogd}]
+        ├─rtkit-daemon───2*[{rtkit-daemon}]
+        ├─snapd───8*[{snapd}]
+        ├─switcheroo-cont───3*[{switcheroo-cont}]
+        ├─systemd─┬─(sd-pam)
+        │         ├─at-spi2-registr───3*[{at-spi2-registr}]
+        │         ├─dbus-daemon
+        │         ├─dconf-service───3*[{dconf-service}]
+        │         ├─evolution-addre───6*[{evolution-addre}]
+        │         ├─evolution-calen───9*[{evolution-calen}]
+        │         ├─evolution-sourc───4*[{evolution-sourc}]
+        │         ├─gcr-ssh-agent───2*[{gcr-ssh-agent}]
+        │         ├─2*[gjs───5*[{gjs}]]
+        │         ├─gnome-keyring-d─┬─ssh-agent
+        │         │                 └─4*[{gnome-keyring-d}]
+        │         ├─gnome-session-b─┬─at-spi-bus-laun─┬─dbus-daemon
+        │         │                 │                 └─4*[{at-spi-bus-laun}]
+        │         │                 ├─evolution-alarm───7*[{evolution-alarm}]
+        │         │                 ├─gsd-disk-utilit───3*[{gsd-disk-utilit}]
+        │         │                 ├─update-notifier───4*[{update-notifier}]
+        │         │                 └─4*[{gnome-session-b}]
+        │         ├─gnome-session-c───{gnome-session-c}
+        │         ├─gnome-shell─┬─Xwayland
+        │         │             ├─firefox─┬─Isolated Web Co───15*[{Isolated Web Co}]
+        │         │             │         ├─Isolated Web Co───13*[{Isolated Web Co}]
+        │         │             │         ├─Privileged Cont───14*[{Privileged Cont}]
+        │         │             │         ├─RDD Process───3*[{RDD Process}]
+        │         │             │         ├─Socket Process───4*[{Socket Process}]
+        │         │             │         ├─Utility Process───3*[{Utility Process}]
+        │         │             │         ├─3*[Web Content───10*[{Web Content}]]
+        │         │             │         ├─WebExtensions───13*[{WebExtensions}]
+        │         │             │         └─77*[{firefox}]
+        │         │             ├─gjs───7*[{gjs}]
+        │         │             ├─mutter-x11-fram───6*[{mutter-x11-fram}]
+        │         │             └─13*[{gnome-shell}]
+        │         ├─gnome-shell-cal───6*[{gnome-shell-cal}]
+        │         ├─gnome-terminal-─┬─bash───script───bash───pstree
+        │         │                 └─5*[{gnome-terminal-}]
+        │         ├─goa-daemon───4*[{goa-daemon}]
+        │         ├─goa-identity-se───3*[{goa-identity-se}]
+        │         ├─gsd-a11y-settin───4*[{gsd-a11y-settin}]
+        │         ├─gsd-color───4*[{gsd-color}]
+        │         ├─gsd-datetime───4*[{gsd-datetime}]
+        │         ├─gsd-housekeepin───4*[{gsd-housekeepin}]
+        │         ├─gsd-keyboard───4*[{gsd-keyboard}]
+        │         ├─gsd-media-keys───4*[{gsd-media-keys}]
+        │         ├─gsd-power───4*[{gsd-power}]
+        │         ├─gsd-print-notif───3*[{gsd-print-notif}]
+        │         ├─gsd-printer───3*[{gsd-printer}]
+        │         ├─gsd-rfkill───3*[{gsd-rfkill}]
+        │         ├─gsd-screensaver───3*[{gsd-screensaver}]
+        │         ├─gsd-sharing───4*[{gsd-sharing}]
+        │         ├─gsd-smartcard───4*[{gsd-smartcard}]
+        │         ├─gsd-sound───4*[{gsd-sound}]
+        │         ├─gsd-wacom───4*[{gsd-wacom}]
+        │         ├─gsd-xsettings───4*[{gsd-xsettings}]
+        │         ├─gvfs-afc-volume───4*[{gvfs-afc-volume}]
+        │         ├─gvfs-goa-volume───3*[{gvfs-goa-volume}]
+        │         ├─gvfs-gphoto2-vo───3*[{gvfs-gphoto2-vo}]
+        │         ├─gvfs-mtp-volume───3*[{gvfs-mtp-volume}]
+        │         ├─gvfs-udisks2-vo───4*[{gvfs-udisks2-vo}]
+        │         ├─gvfsd─┬─gvfsd-trash───4*[{gvfsd-trash}]
+        │         │       └─3*[{gvfsd}]
+        │         ├─gvfsd-fuse───6*[{gvfsd-fuse}]
+        │         ├─gvfsd-metadata───3*[{gvfsd-metadata}]
+        │         ├─ibus-daemon─┬─ibus-dconf───4*[{ibus-dconf}]
+        │         │             ├─ibus-engine-sim───3*[{ibus-engine-sim}]
+        │         │             ├─ibus-extension-───4*[{ibus-extension-}]
+        │         │             └─3*[{ibus-daemon}]
+        │         ├─ibus-portal───3*[{ibus-portal}]
+        │         ├─ibus-x11───3*[{ibus-x11}]
+        │         ├─2*[pipewire───2*[{pipewire}]]
+        │         ├─pipewire-pulse───2*[{pipewire-pulse}]
+        │         ├─snap───6*[{snap}]
+        │         ├─snapd-desktop-i───snapd-desktop-i───4*[{snapd-desktop-i}]
+        │         ├─tracker-miner-f───7*[{tracker-miner-f}]
+        │         ├─wireplumber───5*[{wireplumber}]
+        │         ├─xdg-desktop-por───6*[{xdg-desktop-por}]
+        │         ├─xdg-desktop-por───5*[{xdg-desktop-por}]
+        │         ├─xdg-desktop-por───4*[{xdg-desktop-por}]
+        │         ├─xdg-document-po─┬─fusermount3
+        │         │                 └─8*[{xdg-document-po}]
+        │         └─xdg-permission-───3*[{xdg-permission-}]
+        ├─systemd-journal
+        ├─systemd-logind
+        ├─systemd-oomd
+        ├─systemd-resolve
+        ├─systemd-timesyn───{systemd-timesyn}
+        ├─systemd-udevd
+        ├─udisksd───5*[{udisksd}]
+        ├─unattended-upgr───{unattended-upgr}
+        ├─upowerd───3*[{upowerd}]
+        └─wpa_supplicant
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ ps u[Kaux ?[K| [Kg[K grep syus[K[Kslog
+[?2004lmessage+     524  0.0  0.1  12132  7296 ?        Ss   Jun19   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --[01;31m[Ksyslog[m[K-only
+[01;31m[Ksyslog[m[K       678  0.0  0.1 222564  6016 ?        Ssl  Jun19   0:00 /usr/sbin/r[01;31m[Ksyslog[m[Kd -n -iNONE
+granai      1622  0.0  0.1  11060  6656 ?        Ss   Jun19   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --[01;31m[Ksyslog[m[K-only
+granai      7235  0.0  0.0   9144  2176 pts/1    S+   00:20   0:00 grep --color=auto [01;31m[Ksyslog[m[K
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ pgrep syslog
+[?2004l678
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ ei[Kxit
+[?2004lexit
+
+Script done on 2024-06-20 00:20:46-03:00 [COMMAND_EXIT_CODE="0"]

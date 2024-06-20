@@ -1,0 +1,59 @@
+Script started on 2024-06-20 00:21:03-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="24"]
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo groupadd marketing fin ance apps production
+[?2004l[sudo] password for granai: 
+Usage: groupadd [options] GROUP
+
+Options:
+  -f, --force                   exit successfully if the group already exists,
+                                and cancel -g if the GID is already used
+  -g, --gid GID                 use GID for the new group
+  -h, --help                    display this help message and exit
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -o, --non-unique              allow to create groups with duplicate
+                                (non-unique) GID
+  -p, --password PASSWORD       use this encrypted password for the new group
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DI        directory prefix
+  -U, --users USERS             list of user members of this group
+      --extrausers              Use the extra users database
+
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo groupadd marketing finance apps production[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo groupadd marketing[K[K[K[K[K[K[K[K[Kfinance
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo groupadd finance[K[K[K[K[K[K[Kapps
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo groupadd apps[K[K[K[Kproduction
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo useradd -m -[K[Kg[K -g marketin g anna
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo useradd -m -g marketing anna[C[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kgos[Km[K[K[Kfinance  mary
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo useradd -m -g finance mary[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kapps pet er
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo useradd -m -g apps peter[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kprodi[Kucti on rick
+[?2004l[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo passwd anna
+[?2004lNew password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo passwd anna[K[K[K[Kmary
+[?2004lNew password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo passwd mary[K[K[K[Kpeter
+[?2004lNew password: 
+Retype new password: 
+Sorry, passwords do not match.
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ sudo passwd peter[K[K[K[K[Krick
+[?2004lNew password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;granai@granai: ~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[01;32mgranai@granai[00m:[01;34m~/mentoria/mentoria-cloud-knights/angelo.granai/desafios.linux[00m$ exit
+[?2004lexit
+
+Script done on 2024-06-20 00:23:44-03:00 [COMMAND_EXIT_CODE="0"]
